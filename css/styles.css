@@ -1,0 +1,46 @@
+html {
+    font-size: em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(150, 22, 5);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+figure:hover {
+    border: 1px solid  rgb(150, 22, 5);
+    border-radius: 5px;
+    background-color: rgb(252, 187, 48);
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%; 
+    border: .7px solid rgb(150, 22, 5);
+    width: 250px;
+}
+
+.images {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.container {
+    background-color: rgb(245, 227, 125);
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
